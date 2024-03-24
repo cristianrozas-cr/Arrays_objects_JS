@@ -1,0 +1,35 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+.venta-cards{
+    display: flex;
+}
+
+.alquiler-cards{
+    display: flex;
+}
